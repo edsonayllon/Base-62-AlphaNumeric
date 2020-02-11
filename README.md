@@ -15,6 +15,11 @@ twitter: https://twitter.com/relativeread
 
 Converts numbers to base 63, compressing integers to alphanumeric strings
 
+## Contents
+
+- [Section 1—Significance](1--Significance)
+- [Section 2—Algorithm](2--Algorithm)
+
 ## 1. Significance
 
 Significantly reduces the required storage for very large unsigned integers.
