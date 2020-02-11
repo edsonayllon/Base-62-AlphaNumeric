@@ -17,8 +17,8 @@ Converts numbers to base 63, compressing integers to alphanumeric strings
 
 ## Contents
 
-- [Section 1—Significance](1--Significance)
-- [Section 2—Algorithm](2-Algorithm)
+- [Section 1—Significance](#1-significance)
+- [Section 2—Algorithm](#2-algorithm)
 
 ## 1. Significance
 
