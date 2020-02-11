@@ -5,7 +5,7 @@ tags:
 - mathematics
 - cryptography
 - compression
-status: started
+status: complete
 twitter: https://twitter.com/relativeread
 ---
 
