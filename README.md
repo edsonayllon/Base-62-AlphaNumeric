@@ -9,7 +9,7 @@ status: started
 twitter: https://twitter.com/relativeread
 ---
 
-## Algo 2-2020
+## Algo 3-2020
 
 # Base-62-AlphaNumeric
 
