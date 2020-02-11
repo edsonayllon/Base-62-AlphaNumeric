@@ -44,11 +44,11 @@ For base 10, possible numbers for 1 digit are 0-9, or 10^1. For 2 digits in base
 
 For base 62, possible values for 1 character are 0-z, or 62^1. For 2 characters, total values goes from 0-zz, or 62^2 values. For n digits, total possible values are 62^n. So for a given input value in base 10, the digits in base 62 are calculated as follows:
 
-> ![](https://latex2image.joeraut.com/output/img-75e0ba78e2e22ac2.png)
+![](https://latex2image.joeraut.com/output/img-75e0ba78e2e22ac2.png)
 
-> ![](https://latex2image.joeraut.com/output/img-14e648b0e17eb6d4.png)
+![](https://latex2image.joeraut.com/output/img-14e648b0e17eb6d4.png)
 
-> ![](https://latex2image.joeraut.com/output/img-4fdc95749f970741.png)
+![](https://latex2image.joeraut.com/output/img-4fdc95749f970741.png)
 
 - where `m` is the number in base 10
 - where `n` is the number of digits in base 62
