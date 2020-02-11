@@ -21,19 +21,19 @@ Significantly reduces the required storage for very large unsigned integers.
 
 ## 2. Algorithm
 
-## 2.1 Definition
+### 2.1 Definition
 
 For base 10, values include 0-9. When a value exceeding 9 increases a leading digit starting with 1. This implies a leading digit of 0 at all times, which is omitted for lacking significance. When surpasing 9, that leading 0 is incremented by 1, attributing to it signficance. With arithmatic in base 10, the number 10 is 10 remainder 0. If we were to add 5 and 6, we'd have 10 remainder 1, or 11 stacked.
 
 For base 62, values include 0-9:A-Z:a-z, incrementing from 0 to lowercase z. Once z is surpased, a leading character is incremented to 1, and the preceding z character resets to 0. This implies leading characters of 0 at all times, omitted for lacking significance. Converting base 62 value `"10"` is value `62` in base 10, and base 62 value `"z"` is `61` in base 10. 
 
-## 2.2 Optimization
+### 2.2 Optimization
 
 To keep the time complexity low, to keep speed of execution high, the algorithm was targeted to O(1) or O(n) complexity. 
 
 To keep time complexity within O(n), one for-loop was created per block of execution, with one iteration per character in the resulting base 62 string. 
 
-## 2.3 Encoding
+### 2.3 Encoding
 
 For base 10, possible numbers for 1 digit are 0-9, or 10^1. For 2 digits in base 10, each leading number from 0-9 has a possible trailing number of 0-9, creating a 2 dimensional array of possible numbers. Base 10 possible numbers for 2 digits are 0-99, or 10^2. As digits increase, so does the dimensions of the array containing the total possible values. For n digits, the total possible values are 10^n for base 10. 
 
