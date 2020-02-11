@@ -13,7 +13,7 @@ twitter: https://twitter.com/relativeread
 
 # Base-62-AlphaNumeric
 
-Converts numbers to base 63, compressing integers to alphanumeric strings
+Converts numbers to base 62, compressing integers to alphanumeric strings
 
 ## Contents
 
